@@ -1,0 +1,706 @@
+{
+  "services": [
+    {
+      "slug": "strony-internetowe",
+      "order": 1,
+      "group": "digital",
+      "icon": "layout",
+      "name": "Strony internetowe",
+      "summary": "Strony firmowe, landing page i sklepy projektowane pod zapytania i sprzedaż.",
+      "intro": "Projektujemy i wdrażamy strony, które mają konkretne zadanie: zamienić odwiedzających w zapytania lub zamówienia. Zaczynamy od celu biznesowego, a dopiero potem dobieramy układ, treści i technologię.",
+      "scope": [
+        "Strony firmowe",
+        "Landing page",
+        "Strony sprzedażowe",
+        "Rozbudowane serwisy",
+        "Sklepy internetowe",
+        "Modernizacja istniejących stron",
+        "Projektowanie UX/UI",
+        "Wdrożenia i integracje",
+        "Optymalizacja konwersji",
+        "Opieka techniczna nad stronami"
+      ],
+      "benefits": [
+        { "title": "Projekt pod cel", "text": "Każda sekcja ma określone zadanie — od przedstawienia oferty po wysłanie zapytania." },
+        { "title": "Szybkość i SEO techniczne", "text": "Lekki kod, poprawna semantyka i struktura gotowa na pozycjonowanie." },
+        { "title": "Samodzielna edycja", "text": "Treści, które zmieniasz najczęściej, edytujesz bez programisty." },
+        { "title": "Pomiar od pierwszego dnia", "text": "Konfigurujemy zdarzenia, żeby było wiadomo, skąd przychodzą zapytania." }
+      ],
+      "process": [
+        { "title": "Warsztat i brief", "text": "Ustalamy cel strony, grupę odbiorców, zakres treści i integracje." },
+        { "title": "Struktura i makiety", "text": "Projektujemy architekturę informacji i makiety kluczowych podstron." },
+        { "title": "Projekt graficzny", "text": "Przygotowujemy projekt w Twojej identyfikacji wizualnej lub tworzymy ją od podstaw." },
+        { "title": "Wdrożenie i testy", "text": "Kodujemy, podpinamy formularze i analitykę, testujemy na urządzeniach." },
+        { "title": "Uruchomienie", "text": "Publikujemy stronę, przekazujemy instrukcję i ustalamy dalszą opiekę." }
+      ],
+      "pricing": { "kind": "from", "amount": 1490, "unit": "netto", "note": "Prosta strona lub landing page w pakiecie START. Większe serwisy i sklepy wyceniamy indywidualnie." },
+      "faq": [
+        { "q": "Ile trwa realizacja strony?", "a": "Landing page lub prosta strona firmowa zwykle zajmuje kilka tygodni. Dokładny harmonogram ustalamy po briefie, bo zależy od zakresu i od tego, kiedy dostaniemy treści." },
+        { "q": "Czy mogę sam edytować treści?", "a": "Tak, jeśli zakres projektu obejmuje panel edycji. Ustalamy to na etapie wyceny." },
+        { "q": "Czy przenosicie istniejącą stronę?", "a": "Tak. Przy modernizacji dbamy o zachowanie adresów URL lub przekierowania, żeby nie stracić widoczności w wyszukiwarce." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Strony internetowe dla firm — projekt i wdrożenie", "description": "Strony firmowe, landing page, sklepy i modernizacje. Projekt UX/UI, wdrożenie, analityka i opieka techniczna." },
+      "published": true
+    },
+    {
+      "slug": "pozycjonowanie-seo",
+      "order": 2,
+      "group": "performance",
+      "icon": "search",
+      "name": "Pozycjonowanie SEO",
+      "summary": "Audyt, SEO techniczne, treści i link building z miesięcznym raportem.",
+      "intro": "SEO to praca rozłożona w czasie. Zaczynamy od audytu i strategii słów kluczowych, potem systematycznie poprawiamy technikę, treści i autorytet domeny — a co miesiąc pokazujemy, co zrobiliśmy i co się zmieniło.",
+      "scope": [
+        "Audyt SEO",
+        "SEO techniczne",
+        "Optymalizacja treści",
+        "Strategia słów kluczowych",
+        "SEO lokalne",
+        "Link building",
+        "Rozwój widoczności organicznej",
+        "Miesięczne raportowanie",
+        "Abonament SEO"
+      ],
+      "benefits": [
+        { "title": "Ruch, który nie znika po kampanii", "text": "Widoczność organiczna rośnie stopniowo i pracuje także wtedy, gdy nie płacisz za kliknięcia." },
+        { "title": "Frazy z intencją zakupu", "text": "Skupiamy się na zapytaniach, które prowadzą do kontaktu, a nie tylko na ruchu." },
+        { "title": "Przejrzyste raporty", "text": "Co miesiąc dostajesz listę wykonanych prac i dane z narzędzi, z podanym źródłem." }
+      ],
+      "process": [
+        { "title": "Audyt", "text": "Sprawdzamy technikę, treści, profil linków i konkurencję." },
+        { "title": "Strategia fraz", "text": "Dobieramy frazy do podstron według intencji wyszukiwania." },
+        { "title": "Wdrożenie poprawek", "text": "Naprawiamy błędy techniczne i optymalizujemy treści." },
+        { "title": "Rozwój", "text": "Tworzymy nowe treści i pozyskujemy wartościowe linki." },
+        { "title": "Raport i plan", "text": "Co miesiąc podsumowujemy wyniki i ustalamy kolejne kroki." }
+      ],
+      "pricing": { "kind": "quote", "note": "Audyt wyceniamy jednorazowo, a stałe działania w abonamencie miesięcznym — zakres zależy od konkurencyjności branży." },
+      "faq": [
+        { "q": "Kiedy widać efekty SEO?", "a": "Pierwsze zmiany zwykle pojawiają się po kilku miesiącach. Nie gwarantujemy konkretnych pozycji, bo zależą od wyszukiwarki i konkurencji — gwarantujemy zakres i jakość prac." },
+        { "q": "Czy SEO lokalne obejmuje Profil Firmy w Google?", "a": "Tak, optymalizacja profilu firmy jest częścią SEO lokalnego." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Pozycjonowanie SEO — audyt, SEO techniczne i abonament", "description": "Audyt SEO, optymalizacja techniczna i treści, SEO lokalne, link building oraz miesięczne raporty." },
+      "published": true
+    },
+    {
+      "slug": "reklamy-platne",
+      "order": 3,
+      "group": "performance",
+      "icon": "megaphone",
+      "name": "Reklamy płatne",
+      "summary": "Google Ads i Meta Ads nastawione na leady i sprzedaż, z poprawnym pomiarem konwersji.",
+      "intro": "Prowadzimy kampanie Google Ads i Meta Ads, w których budżet jest liczony w zapytaniach i sprzedaży, a nie w wyświetleniach. Zanim uruchomimy reklamy, upewniamy się, że konwersje są poprawnie mierzone.",
+      "scope": [
+        "Google Ads",
+        "Meta Ads",
+        "Kampanie remarketingowe",
+        "Kampanie generujące leady",
+        "Reklamy sprzedażowe",
+        "Konfiguracja konwersji",
+        "Optymalizacja budżetów",
+        "Stała obsługa kampanii"
+      ],
+      "benefits": [
+        { "title": "Pomiar przed wydatkami", "text": "Konfigurujemy śledzenie konwersji, zanim wydasz pierwszą złotówkę na reklamę." },
+        { "title": "Testy zamiast zgadywania", "text": "Regularnie testujemy kreacje, grupy odbiorców i strony docelowe." },
+        { "title": "Jasny podział kosztów", "text": "Wynagrodzenie VELIO i budżet reklamowy są zawsze rozliczane oddzielnie." }
+      ],
+      "process": [
+        { "title": "Audyt lub strategia", "text": "Analizujemy obecne konto albo projektujemy strukturę kampanii od zera." },
+        { "title": "Pomiar", "text": "Konfigurujemy konwersje i weryfikujemy, czy dane spływają poprawnie." },
+        { "title": "Uruchomienie", "text": "Przygotowujemy kampanie, kreacje i grupy odbiorców." },
+        { "title": "Optymalizacja", "text": "Przesuwamy budżet tam, gdzie przynosi zapytania, i wyłączamy to, co nie działa." }
+      ],
+      "pricing": { "kind": "quote", "note": "Konfigurację kampanii wyceniamy jednorazowo, stałą obsługę miesięcznie." },
+      "pricingNotice": "Budżet reklamowy płacisz bezpośrednio platformom (Google, Meta). Nie jest częścią wynagrodzenia VELIO.",
+      "faq": [
+        { "q": "Jaki budżet reklamowy jest potrzebny?", "a": "Zależy od branży, kosztu kliknięcia i celu. Rekomendację przygotujemy po analizie — nie zaczynamy od budżetu, którego nie da się uzasadnić." },
+        { "q": "Czy konto reklamowe należy do mnie?", "a": "Tak. Konta reklamowe zakładamy lub prowadzimy na Twoje dane, a my otrzymujemy do nich dostęp." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Reklamy Google Ads i Meta Ads — kampanie na leady i sprzedaż", "description": "Kampanie Google Ads i Meta Ads, remarketing, konfiguracja konwersji i optymalizacja budżetu. Wynagrodzenie oddzielone od budżetu reklamowego." },
+      "published": true
+    },
+    {
+      "slug": "ai-i-automatyzacje",
+      "order": 4,
+      "group": "ai",
+      "icon": "workflow",
+      "name": "AI marketing i automatyzacje",
+      "summary": "Asystenci AI, kwalifikowanie leadów i integracje, które zdejmują z zespołu powtarzalną pracę.",
+      "intro": "Automatyzujemy procesy, które dziś zajmują Twojemu zespołowi godziny: obsługę zapytań, przygotowanie ofert, raporty i przekazywanie danych między aplikacjami. Zaczynamy od jednego procesu, mierzymy efekt i dopiero wtedy rozwijamy kolejne.",
+      "scope": [
+        "Automatyzacja obsługi zapytań",
+        "Asystenci AI",
+        "Automatyczne kwalifikowanie leadów",
+        "Automatyczne przygotowywanie ofert",
+        "Integracje między aplikacjami",
+        "Automatyzacja raportów",
+        "Chatboty",
+        "Automatyzacja powtarzalnych zadań",
+        "Projektowanie procesów AI",
+        "Abonament AI"
+      ],
+      "benefits": [
+        { "title": "Szybsza odpowiedź klientowi", "text": "Zapytanie trafia do właściwej osoby od razu, z kompletem informacji." },
+        { "title": "Mniej przepisywania danych", "text": "Formularze, CRM, arkusze i poczta wymieniają dane bez ręcznego kopiowania." },
+        { "title": "Kontrola nad AI", "text": "Projektujemy procesy tak, żeby decyzje wymagające człowieka zostawały u człowieka." }
+      ],
+      "process": [
+        { "title": "Mapa procesu", "text": "Rozpisujemy proces krok po kroku i wskazujemy, co warto zautomatyzować." },
+        { "title": "Projekt przepływu", "text": "Dobieramy narzędzia i projektujemy przepływ danych oraz punkty kontroli." },
+        { "title": "Wdrożenie", "text": "Budujemy automatyzację, testujemy na prawdziwych przypadkach i dokumentujemy." },
+        { "title": "Monitoring i rozwój", "text": "Pilnujemy działania i rozwijamy kolejne przepływy." }
+      ],
+      "pricing": { "kind": "from", "amount": 2990, "unit": "netto za wdrożenie", "note": "Jeden podstawowy przepływ w pakiecie AUTOMATYZACJA FIRMY. Koszty zewnętrznych narzędzi AI, CRM i automatyzacji są wykazywane oddzielnie." },
+      "faq": [
+        { "q": "Jakich narzędzi używacie?", "a": "Dobieramy je do procesu i budżetu — od gotowych platform integracyjnych po dedykowane rozwiązania. Koszty licencji zawsze pokazujemy osobno." },
+        { "q": "Co z danymi klientów przetwarzanymi przez AI?", "a": "Na etapie projektu ustalamy, jakie dane i gdzie są przetwarzane, oraz dobieramy usługi zgodne z Twoimi wymaganiami dotyczącymi ochrony danych." }
+      ],
+      "formVariant": "automatyzacje",
+      "seo": { "title": "Automatyzacje i AI dla firm — asystenci, leady, integracje", "description": "Automatyzacja obsługi zapytań, asystenci AI, kwalifikowanie leadów, integracje aplikacji i automatyczne raporty." },
+      "published": true
+    },
+    {
+      "slug": "branding",
+      "order": 5,
+      "group": "brand",
+      "icon": "pen",
+      "name": "Branding i identyfikacja wizualna",
+      "summary": "Strategia marki, logo i system identyfikacji, który działa w każdym kanale.",
+      "intro": "Budujemy marki, które łatwo rozpoznać i trudno pomylić z konkurencją. Zaczynamy od strategii — kim jesteś, dla kogo i czym się różnisz — a dopiero potem przechodzimy do znaku, kolorów i typografii.",
+      "scope": [
+        "Strategia marki",
+        "Projekt logo",
+        "Identyfikacja wizualna",
+        "Księga znaku",
+        "System identyfikacji",
+        "Key visual",
+        "Materiały cyfrowe",
+        "Rebranding"
+      ],
+      "benefits": [
+        { "title": "Spójność", "text": "Jeden system zasad zamiast przypadkowych projektów robionych na szybko." },
+        { "title": "Wyróżnienie", "text": "Identyfikacja oparta na tym, co faktycznie odróżnia Cię od konkurencji." },
+        { "title": "Gotowe pliki", "text": "Otrzymujesz komplet plików i zasady stosowania dla zespołu i dostawców." }
+      ],
+      "process": [
+        { "title": "Strategia", "text": "Warsztat, analiza konkurencji i określenie pozycjonowania." },
+        { "title": "Kierunki kreatywne", "text": "Przedstawiamy kierunki wizualne i wybieramy jeden do rozwinięcia." },
+        { "title": "Projekt systemu", "text": "Logo, kolory, typografia, elementy graficzne i przykładowe zastosowania." },
+        { "title": "Księga znaku", "text": "Dokumentujemy zasady i przekazujemy pliki źródłowe." }
+      ],
+      "pricing": { "kind": "quote", "note": "Zakres od samego znaku po pełny system identyfikacji — wycena po krótkim briefie." },
+      "faq": [
+        { "q": "Ile propozycji logo otrzymam?", "a": "Liczbę kierunków kreatywnych i rund poprawek określamy w wycenie, żeby zakres był jasny od początku." },
+        { "q": "Czy przekazujecie prawa autorskie?", "a": "Tak, warunki przeniesienia praw do projektów określa umowa." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Branding i identyfikacja wizualna — logo, księga znaku, rebranding", "description": "Strategia marki, projekt logo, system identyfikacji wizualnej, księga znaku, key visual i rebranding." },
+      "published": true
+    },
+    {
+      "slug": "druk-i-materialy",
+      "order": 6,
+      "group": "brand",
+      "icon": "printer",
+      "name": "Druk, opakowania i materiały reklamowe",
+      "summary": "Projekt i przygotowanie do druku: od wizytówek po opakowania i materiały targowe.",
+      "intro": "Projektujemy materiały drukowane, przygotowujemy pliki zgodnie z wymaganiami drukarni i — jeśli chcesz — zamawiamy wydruki. Cena zależy od nakładu, materiału i dostawcy, dlatego każde zamówienie wyceniamy indywidualnie.",
+      "scope": [
+        "Ulotki i wizytówki",
+        "Katalogi i broszury",
+        "Plakaty i banery",
+        "Projekty opakowań",
+        "Etykiety produktowe",
+        "Materiały targowe",
+        "Przygotowanie do druku",
+        "Zamawianie wydruków"
+      ],
+      "benefits": [
+        { "title": "Pliki bez poprawek", "text": "Spady, profile kolorów i rozdzielczość przygotowane pod konkretną drukarnię." },
+        { "title": "Jeden kontakt", "text": "Projekt, przygotowanie i zamówienie wydruku w jednym miejscu." },
+        { "title": "Akceptacja przed drukiem", "text": "Nic nie trafia do produkcji bez Twojej akceptacji projektu." }
+      ],
+      "process": [
+        { "title": "Parametry", "text": "Format, nakład, materiał, wykończenie i termin." },
+        { "title": "Wycena", "text": "Wyceniamy projekt oraz druk u sprawdzonego dostawcy." },
+        { "title": "Projekt i akceptacja", "text": "Przygotowujemy projekt i czekamy na Twoją akceptację." },
+        { "title": "Produkcja i dostawa", "text": "Przekazujemy pliki do druku i informujemy o statusie dostawy." }
+      ],
+      "pricing": { "kind": "quote", "note": "Cena zależy od nakładu, materiału, wykończenia i dostawcy." },
+      "faq": [
+        { "q": "Czy mogę przesłać własny projekt?", "a": "Tak. Sprawdzimy plik pod kątem wymagań drukarni i w razie potrzeby przygotujemy go do druku." },
+        { "q": "Jak przesłać pliki?", "a": "Na tym etapie wklej w formularzu link do plików (np. dysk w chmurze). Przesyłanie plików bezpośrednio uruchomimy razem z panelem klienta." }
+      ],
+      "formVariant": "druk",
+      "seo": { "title": "Druk, opakowania i materiały reklamowe — projekt i przygotowanie", "description": "Ulotki, wizytówki, katalogi, banery, opakowania, etykiety i materiały targowe. Projekt, przygotowanie do druku i zamówienie wydruków." },
+      "published": true
+    },
+    {
+      "slug": "odziez-i-gadzety",
+      "order": 7,
+      "group": "brand",
+      "icon": "shirt",
+      "name": "Odzież firmowa i gadżety",
+      "summary": "Odzież z logo, gadżety i upominki firmowe — projekt, personalizacja, zamówienia hurtowe.",
+      "intro": "Przygotowujemy odzież i gadżety, które zespół i klienci będą chcieli faktycznie używać. Pomagamy dobrać produkty, technikę znakowania i nakład.",
+      "scope": [
+        "Odzież z logo",
+        "Koszulki i bluzy",
+        "Odzież robocza",
+        "Kubki",
+        "Gadżety reklamowe",
+        "Upominki firmowe",
+        "Personalizacja produktów",
+        "Zamówienia hurtowe"
+      ],
+      "benefits": [
+        { "title": "Dobór techniki", "text": "Haft, sitodruk czy nadruk cyfrowy — dobieramy technikę do materiału i nakładu." },
+        { "title": "Spójność z marką", "text": "Znakowanie zgodne z identyfikacją wizualną." },
+        { "title": "Wizualizacje przed zamówieniem", "text": "Widzisz, jak produkt będzie wyglądał, zanim trafi do produkcji." }
+      ],
+      "process": [
+        { "title": "Potrzeby", "text": "Ustalamy przeznaczenie, nakład, rozmiary i termin." },
+        { "title": "Propozycja produktów", "text": "Dobieramy produkty i technikę znakowania." },
+        { "title": "Wizualizacja i akceptacja", "text": "Przygotowujemy wizualizacje do akceptacji." },
+        { "title": "Realizacja", "text": "Zamawiamy produkcję i pilnujemy terminu dostawy." }
+      ],
+      "pricing": { "kind": "quote", "note": "Cena zależy od produktu, techniki znakowania i nakładu." },
+      "faq": [
+        { "q": "Jaki jest minimalny nakład?", "a": "Zależy od produktu i techniki znakowania — podamy go w wycenie." }
+      ],
+      "formVariant": "druk",
+      "seo": { "title": "Odzież firmowa i gadżety reklamowe z logo", "description": "Koszulki, bluzy, odzież robocza, kubki, gadżety i upominki firmowe z personalizacją. Zamówienia hurtowe." },
+      "published": true
+    },
+    {
+      "slug": "strategia-i-leady",
+      "order": 8,
+      "group": "growth",
+      "icon": "target",
+      "name": "Strategia, sprzedaż i generowanie leadów",
+      "summary": "Strategia marketingowa, ICP i lejek, który zamienia ruch w rozmowy handlowe.",
+      "intro": "Pomagamy ustalić, do kogo mówić, co powiedzieć i jak przeprowadzić klienta od pierwszego kontaktu do decyzji. Łączymy strategię z praktyką: landing page, kwalifikację zapytań i proces sprzedaży.",
+      "scope": [
+        "Strategia marketingowa",
+        "Analiza konkurencji",
+        "ICP i persony zakupowe",
+        "Generowanie leadów B2B",
+        "Landing page pod kampanie",
+        "Optymalizacja lejka sprzedażowego",
+        "Projektowanie procesu sprzedaży",
+        "System kwalifikacji zapytań"
+      ],
+      "benefits": [
+        { "title": "Lepsze leady, nie tylko więcej", "text": "Kwalifikacja pozwala handlowcom skupić się na rozmowach z szansą na zamknięcie." },
+        { "title": "Jeden plan", "text": "Marketing i sprzedaż pracują według tych samych definicji i celów." },
+        { "title": "Mierzalne etapy", "text": "Wiesz, na którym etapie lejka tracisz klientów." }
+      ],
+      "process": [
+        { "title": "Diagnoza", "text": "Analiza obecnego lejka, oferty i konkurencji." },
+        { "title": "ICP i komunikacja", "text": "Określamy idealnego klienta i kluczowe komunikaty." },
+        { "title": "Lejek", "text": "Projektujemy ścieżkę od pierwszego kontaktu do oferty." },
+        { "title": "Wdrożenie i pomiar", "text": "Uruchamiamy, mierzymy i poprawiamy najsłabsze etapy." }
+      ],
+      "pricing": { "kind": "quote", "note": "Strategię wyceniamy jako projekt, wdrożenie lejka zależnie od zakresu." },
+      "faq": [
+        { "q": "Czy pracujecie z firmami B2B?", "a": "Tak, generowanie leadów B2B i kwalifikacja zapytań to jeden z głównych obszarów tej usługi." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Strategia marketingowa i generowanie leadów B2B", "description": "Strategia marketingowa, analiza konkurencji, ICP, generowanie leadów B2B, lejek sprzedażowy i kwalifikacja zapytań." },
+      "published": true
+    },
+    {
+      "slug": "email-marketing-i-crm",
+      "order": 9,
+      "group": "growth",
+      "icon": "mail",
+      "name": "E-mail marketing i CRM",
+      "summary": "Konfiguracja CRM, segmentacja i automatyczne sekwencje, które dbają o follow-up.",
+      "intro": "Porządkujemy kontakty, konfigurujemy CRM i projektujemy komunikację e-mail, która prowadzi klienta do decyzji. Automatyczne przypomnienia sprawiają, że żadne zapytanie nie zostaje bez odpowiedzi.",
+      "scope": [
+        "Konfiguracja CRM",
+        "Migracja kontaktów",
+        "Projektowanie lejków",
+        "Kampanie e-mailowe",
+        "Automatyczne sekwencje",
+        "Segmentacja klientów",
+        "Lead nurturing",
+        "Przypomnienia i follow-upy",
+        "Integracje formularzy z CRM"
+      ],
+      "benefits": [
+        { "title": "Wszystkie kontakty w jednym miejscu", "text": "Koniec z arkuszami w kilku wersjach i notatkami w skrzynkach pracowników." },
+        { "title": "Follow-up bez pamiętania", "text": "System przypomina o kolejnym kontakcie i wysyła zaplanowane wiadomości." },
+        { "title": "Komunikacja zgodna ze zgodami", "text": "Segmentujemy odbiorców z uwzględnieniem zebranych zgód marketingowych." }
+      ],
+      "process": [
+        { "title": "Audyt danych", "text": "Sprawdzamy, gdzie są kontakty i w jakim są stanie." },
+        { "title": "Konfiguracja CRM", "text": "Etapy, pola, uprawnienia i migracja kontaktów." },
+        { "title": "Sekwencje", "text": "Projektujemy i piszemy automatyczne sekwencje e-mail." },
+        { "title": "Integracje", "text": "Podłączamy formularze i inne źródła leadów." }
+      ],
+      "pricing": { "kind": "quote", "note": "Licencje CRM i narzędzi e-mail są rozliczane oddzielnie od wdrożenia." },
+      "faq": [
+        { "q": "Który CRM wybrać?", "a": "Rekomendujemy CRM po analizie procesu sprzedaży i wielkości zespołu. Możemy też skonfigurować narzędzie, którego już używasz." }
+      ],
+      "formVariant": "automatyzacje",
+      "seo": { "title": "E-mail marketing i wdrożenie CRM", "description": "Konfiguracja CRM, migracja kontaktów, segmentacja, automatyczne sekwencje e-mail, lead nurturing i integracje formularzy." },
+      "published": true
+    },
+    {
+      "slug": "employer-branding",
+      "order": 10,
+      "group": "brand",
+      "icon": "users",
+      "name": "Employer branding i rekrutacje",
+      "summary": "Strony kariery, kampanie rekrutacyjne i proces aplikowania, który nie zniechęca kandydatów.",
+      "intro": "Pomagamy firmom pokazać, dlaczego warto u nich pracować, i uprościć drogę od ogłoszenia do rozmowy. Tworzymy strony kariery, materiały i kampanie rekrutacyjne oraz automatyzujemy obsługę aplikacji.",
+      "scope": [
+        "Wizerunek pracodawcy",
+        "Strony kariery",
+        "Kampanie rekrutacyjne",
+        "Materiały rekrutacyjne",
+        "Formularze aplikacyjne",
+        "Automatyzacja procesu rekrutacji",
+        "Komunikacja marki pracodawcy"
+      ],
+      "benefits": [
+        { "title": "Kandydaci lepiej dopasowani", "text": "Konkretna komunikacja przyciąga osoby, które rozumieją, czego szukasz." },
+        { "title": "Prostsza aplikacja", "text": "Krótki formularz i szybkie potwierdzenia zmniejszają liczbę porzuconych aplikacji." },
+        { "title": "Mniej pracy dla HR", "text": "Automatyczne potwierdzenia, przypomnienia i przekazywanie aplikacji." }
+      ],
+      "process": [
+        { "title": "Wartości pracodawcy", "text": "Ustalamy, co realnie wyróżnia Cię jako miejsce pracy." },
+        { "title": "Strona kariery", "text": "Projektujemy stronę i formularz aplikacyjny." },
+        { "title": "Kampania", "text": "Przygotowujemy kreacje i uruchamiamy kampanię." },
+        { "title": "Automatyzacja", "text": "Usprawniamy obsługę aplikacji." }
+      ],
+      "pricing": { "kind": "quote" },
+      "faq": [
+        { "q": "Czy prowadzicie samą rekrutację?", "a": "Nie prowadzimy procesu rekrutacji za Ciebie. Odpowiadamy za komunikację, kampanie i narzędzia, które go wspierają." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Employer branding i kampanie rekrutacyjne", "description": "Wizerunek pracodawcy, strony kariery, kampanie i materiały rekrutacyjne, formularze aplikacyjne i automatyzacja rekrutacji." },
+      "published": true
+    },
+    {
+      "slug": "ekspansja-zagraniczna",
+      "order": 11,
+      "group": "growth",
+      "icon": "globe",
+      "name": "Ekspansja zagraniczna",
+      "summary": "Lokalizacja stron i treści, SEO międzynarodowe i kampanie na nowe rynki.",
+      "intro": "Pomagamy przygotować markę do wejścia na nowy rynek: od analizy rynku, przez lokalizację strony i treści, po kampanie dopasowane do lokalnych odbiorców.",
+      "scope": [
+        "Lokalizacja stron",
+        "Przygotowanie treści w innych językach",
+        "SEO międzynarodowe",
+        "Analiza rynku docelowego",
+        "Przygotowanie kampanii na inne rynki",
+        "Adaptacja komunikacji i materiałów",
+        "Strategia wejścia na rynek"
+      ],
+      "benefits": [
+        { "title": "Lokalizacja, nie tylko tłumaczenie", "text": "Adaptujemy komunikację do kultury i nawyków zakupowych rynku." },
+        { "title": "Poprawna struktura wielojęzyczna", "text": "Wersje językowe skonfigurowane tak, by wyszukiwarki pokazywały właściwą." },
+        { "title": "Decyzje oparte na analizie", "text": "Zanim zainwestujesz w kampanie, wiesz, jak wygląda konkurencja i popyt." }
+      ],
+      "process": [
+        { "title": "Analiza rynku", "text": "Konkurencja, popyt, kanały i różnice w komunikacji." },
+        { "title": "Strategia wejścia", "text": "Priorytety, kanały i budżet." },
+        { "title": "Lokalizacja", "text": "Strona, treści i materiały w nowym języku." },
+        { "title": "Kampanie", "text": "Uruchomienie i optymalizacja kampanii na rynku docelowym." }
+      ],
+      "pricing": { "kind": "quote" },
+      "faq": [
+        { "q": "Jakie języki obsługujecie?", "a": "Język i zakres lokalizacji ustalamy w wycenie. Przy tłumaczeniach współpracujemy z native speakerami." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Ekspansja zagraniczna — lokalizacja, SEO międzynarodowe, kampanie", "description": "Analiza rynku, strategia wejścia, lokalizacja stron i treści, SEO międzynarodowe i kampanie na rynki zagraniczne." },
+      "published": true
+    },
+    {
+      "slug": "analityka-i-pomiar",
+      "order": 12,
+      "group": "performance",
+      "icon": "chart",
+      "name": "Analityka, zgody i pomiar wyników",
+      "summary": "GA4, Tag Manager, pomiar konwersji i dashboardy — z konfiguracją zgód.",
+      "intro": "Bez wiarygodnych danych trudno podejmować decyzje marketingowe. Konfigurujemy pomiar, sprawdzamy jakość danych i budujemy dashboardy, które pokazują to, co ważne dla Twojego biznesu.",
+      "scope": [
+        "Google Analytics 4",
+        "Google Tag Manager",
+        "Pomiar konwersji",
+        "Dashboardy raportowe",
+        "Konfiguracja zdarzeń",
+        "Integracje danych marketingowych",
+        "Audyt pomiaru",
+        "Zarządzanie zgodami",
+        "Weryfikacja jakości danych"
+      ],
+      "benefits": [
+        { "title": "Dane, którym można ufać", "text": "Weryfikujemy, czy zdarzenia są liczone raz i we właściwym miejscu." },
+        { "title": "Jeden widok", "text": "Dashboard łączący dane z kampanii, strony i CRM." },
+        { "title": "Konfiguracja zgód", "text": "Pomiar skonfigurowany zgodnie z wybranym mechanizmem zarządzania zgodami." }
+      ],
+      "process": [
+        { "title": "Audyt pomiaru", "text": "Sprawdzamy obecną konfigurację i jakość danych." },
+        { "title": "Plan pomiaru", "text": "Definiujemy zdarzenia i konwersje istotne dla biznesu." },
+        { "title": "Wdrożenie", "text": "Konfigurujemy GA4, GTM i zgody." },
+        { "title": "Dashboard", "text": "Budujemy raport i uczymy zespół z niego korzystać." }
+      ],
+      "pricing": { "kind": "quote" },
+      "pricingNotice": "Sama instalacja narzędzia nie zapewnia zgodności z przepisami. Konfigurację zgód dopasowujemy do sposobu wykorzystania danych — w kwestiach prawnych warto skonsultować się z prawnikiem.",
+      "faq": [
+        { "q": "Czy zapewniacie zgodność z RODO?", "a": "Konfigurujemy narzędzia zgodnie z przyjętą polityką zgód i dobrymi praktykami. Ocena zgodności prawnej należy do prawnika lub inspektora ochrony danych." }
+      ],
+      "formVariant": "ogolny",
+      "seo": { "title": "Analityka GA4, Tag Manager i pomiar konwersji", "description": "Google Analytics 4, Google Tag Manager, pomiar konwersji, dashboardy, audyt pomiaru i konfiguracja zgód." },
+      "published": true
+    }
+  ],
+  "packages": [
+    {
+      "slug": "start",
+      "order": 1,
+      "name": "START",
+      "audience": "Dla nowych firm, które potrzebują profesjonalnego wizerunku w internecie.",
+      "description": "Solidny punkt wyjścia: prosta strona, która dobrze wygląda, ładuje się szybko i pozwala klientom łatwo się skontaktować.",
+      "priceFrom": 1490,
+      "priceUnit": "netto",
+      "duration": "Termin ustalany po briefie",
+      "includes": [
+        "Landing page lub prosta strona firmowa",
+        "Podstawowa identyfikacja wizualna",
+        "Formularz kontaktowy",
+        "Podstawowa konfiguracja SEO",
+        "Analityka w uzgodnionym zakresie",
+        "Przygotowanie strony pod konwersje",
+        "Instrukcja obsługi"
+      ],
+      "limits": [
+        "Zakres podstron i liczba poprawek określone w wycenie",
+        "Bez sklepu internetowego i rozbudowanych integracji"
+      ],
+      "extensions": ["Pełny branding", "Kampania reklamowa", "Opieka nad stroną"],
+      "addons": [
+        { "name": "Dodatkowa podstrona", "note": "wycena w zależności od treści" },
+        { "name": "Teksty na stronę", "note": "wycena indywidualna" }
+      ],
+      "featured": false,
+      "published": true
+    },
+    {
+      "slug": "pierwsi-klienci",
+      "order": 2,
+      "name": "PIERWSI KLIENCI",
+      "audience": "Dla firm, które chcą zacząć systematycznie pozyskiwać zapytania.",
+      "description": "Strona skoncentrowana na konwersji połączona z pierwszą kampanią i pomiarem, żeby wiedzieć, ile kosztuje zapytanie.",
+      "priceFrom": 2490,
+      "priceUnit": "netto za wdrożenie",
+      "duration": "Termin ustalany po briefie",
+      "includes": [
+        "Landing page skoncentrowany na konwersji",
+        "Formularz generowania leadów",
+        "Konfiguracja analityki",
+        "Przygotowanie kampanii Google Ads lub Meta Ads",
+        "Śledzenie konwersji",
+        "Podstawowy lejek kontaktowy",
+        "Rekomendacje dotyczące oferty i sprzedaży"
+      ],
+      "limits": ["Jedna platforma reklamowa na start"],
+      "extensions": ["Stała obsługa reklam", "Automatyzacja obsługi zapytań", "Integracja z CRM"],
+      "addons": [{ "name": "Druga platforma reklamowa", "note": "wycena indywidualna" }],
+      "separateCosts": "Obsługa kampanii i budżet reklamowy są wyceniane osobno.",
+      "featured": true,
+      "published": true
+    },
+    {
+      "slug": "automatyzacja-firmy",
+      "order": 3,
+      "name": "AUTOMATYZACJA FIRMY",
+      "audience": "Dla firm, które chcą ograniczyć ręczną pracę i usprawnić obsługę klientów.",
+      "description": "Jeden dobrze przemyślany przepływ automatyzacji — od zapytania, przez CRM, po przypomnienia dla zespołu.",
+      "priceFrom": 2990,
+      "priceUnit": "netto za wdrożenie",
+      "duration": "Termin ustalany po analizie procesu",
+      "includes": [
+        "Analiza wybranego procesu biznesowego",
+        "Formularz zbierający zapytania",
+        "Automatyczne przekazywanie leadów",
+        "Powiadomienia e-mail",
+        "Integracja z wybranym CRM",
+        "Automatyczne przypomnienia",
+        "Jeden podstawowy przepływ automatyzacji",
+        "Dokumentacja wdrożenia"
+      ],
+      "limits": ["Jeden przepływ automatyzacji w cenie pakietu"],
+      "extensions": ["Kolejne przepływy", "Asystent AI", "Abonament AI"],
+      "addons": [{ "name": "Dodatkowy przepływ", "note": "wycena po analizie" }],
+      "separateCosts": "Koszty zewnętrznych narzędzi AI, CRM i automatyzacji są wykazywane oddzielnie.",
+      "featured": false,
+      "published": true
+    },
+    {
+      "slug": "growth",
+      "order": 4,
+      "name": "GROWTH",
+      "audience": "Dla firm, które chcą rozwijać marketing w sposób ciągły.",
+      "description": "Rozbudowane wdrożenie łączące stronę, kampanie, SEO, analitykę i CRM w jeden plan rozwoju.",
+      "priceFrom": 4990,
+      "priceUnit": "netto za wdrożenie",
+      "duration": "Termin ustalany po strategii",
+      "includes": [
+        "Rozbudowana strona lub landing page",
+        "Strategia pozyskiwania leadów",
+        "Przygotowanie kampanii",
+        "SEO startowe",
+        "Konfiguracja analityki",
+        "Integracja z CRM",
+        "Plan optymalizacji"
+      ],
+      "limits": ["Dokładny zakres ustalany po strategii"],
+      "extensions": ["Abonament SEO", "Stała obsługa reklam", "Abonament AI"],
+      "addons": [],
+      "separateCosts": "Budżet reklamowy i licencje narzędzi są rozliczane oddzielnie.",
+      "featured": false,
+      "published": true
+    },
+    {
+      "slug": "custom",
+      "order": 5,
+      "name": "CUSTOM / ENTERPRISE",
+      "audience": "Dla firm wymagających indywidualnego rozwiązania.",
+      "description": "Wiele procesów, rynków i kanałów — plan i zespół dopasowane do skali Twojej organizacji.",
+      "priceFrom": null,
+      "priceUnit": "",
+      "duration": "Harmonogram w planie rozwoju",
+      "includes": [
+        "Indywidualna strategia",
+        "Rozbudowane integracje",
+        "Automatyzacje wielu procesów",
+        "Zaawansowana analityka",
+        "Kampanie wielokanałowe",
+        "Obsługa wielu rynków",
+        "Dedykowany plan rozwoju"
+      ],
+      "limits": [],
+      "extensions": [],
+      "addons": [],
+      "featured": false,
+      "published": true
+    }
+  ],
+  "plans": [
+    {
+      "slug": "opieka-nad-strona",
+      "order": 1,
+      "name": "Opieka nad stroną",
+      "summary": "Strona aktualna, bezpieczna i dostępna — bez pamiętania o tym na co dzień.",
+      "features": ["Aktualizacje", "Kopie zapasowe", "Monitorowanie dostępności", "Drobne poprawki w ustalonym limicie", "Raportowanie", "Rozszerzone pakiety opieki"],
+      "billing": ["subscription", "invoice"],
+      "priceFrom": null,
+      "priceUnit": "netto / mies.",
+      "relatedService": "strony-internetowe",
+      "published": true
+    },
+    {
+      "slug": "obsluga-reklam",
+      "order": 2,
+      "name": "Stała obsługa reklam",
+      "summary": "Kampanie prowadzone i optymalizowane co tydzień, nie tylko uruchomione.",
+      "features": ["Zarządzanie kampaniami", "Optymalizacja", "Testy reklam i grup odbiorców", "Raporty", "Spotkania konsultacyjne zależnie od pakietu"],
+      "billing": ["invoice"],
+      "priceFrom": null,
+      "priceUnit": "netto / mies.",
+      "relatedService": "reklamy-platne",
+      "published": true
+    },
+    {
+      "slug": "abonament-seo",
+      "order": 3,
+      "name": "Abonament SEO",
+      "summary": "Systematyczny rozwój widoczności z planem i raportem co miesiąc.",
+      "features": ["Prace optymalizacyjne", "Rozwój treści", "Analiza widoczności", "Raport miesięczny", "Plan kolejnych działań"],
+      "billing": ["invoice"],
+      "priceFrom": null,
+      "priceUnit": "netto / mies.",
+      "relatedService": "pozycjonowanie-seo",
+      "published": true
+    },
+    {
+      "slug": "abonament-ai",
+      "order": 4,
+      "name": "Abonament AI",
+      "summary": "Automatyzacje, które działają stabilnie i rosną razem z firmą.",
+      "features": ["Utrzymanie automatyzacji", "Monitoring działania", "Poprawki", "Rozwój wybranych przepływów", "Raport wykorzystania", "Wsparcie techniczne"],
+      "billing": ["subscription", "invoice"],
+      "priceFrom": null,
+      "priceUnit": "netto / mies.",
+      "relatedService": "ai-i-automatyzacje",
+      "published": true
+    },
+    {
+      "slug": "druk-na-zamowienie",
+      "order": 5,
+      "name": "Materiały drukowane na zamówienie",
+      "summary": "Zamawiasz, akceptujesz projekt i śledzisz status — bez szukania drukarni.",
+      "features": ["Formularz zamówienia", "Parametry produktu", "Przesyłanie plików", "Indywidualna wycena", "Akceptacja projektu", "Status produkcji", "Informacje o dostawie"],
+      "billing": ["quote", "manual_approval"],
+      "priceFrom": null,
+      "priceUnit": "",
+      "relatedService": "druk-i-materialy",
+      "published": true
+    },
+    {
+      "slug": "audyt-marketingowy",
+      "order": 6,
+      "name": "Audyt marketingowy",
+      "summary": "Jednorazowy przegląd tego, co działa, co nie działa i od czego zacząć.",
+      "features": ["Audyt strony", "Audyt SEO", "Audyt reklam", "Audyt analityki", "Audyt lejka sprzedaży", "Audyt automatyzacji"],
+      "billing": ["one_time", "quote"],
+      "priceFrom": null,
+      "priceUnit": "netto",
+      "published": true
+    }
+  ],
+  "faqs": [
+    { "slug": "ceny", "order": 1, "category": "Ceny", "q": "Ile kosztuje współpraca z VELIO?", "a": "Pakiety startowe zaczynają się od 1 490 zł netto. Większe projekty i stałą współpracę wyceniamy indywidualnie — po krótkiej rozmowie przygotowujemy wycenę z rozpisanym zakresem.", "published": true },
+    { "slug": "budzet-reklamowy", "order": 2, "category": "Ceny", "q": "Czy budżet reklamowy jest wliczony w cenę?", "a": "Nie. Budżet reklamowy płacisz bezpośrednio platformom (np. Google, Meta). Wynagrodzenie VELIO jest rozliczane osobno.", "published": true },
+    { "slug": "czas-realizacji", "order": 3, "category": "Realizacja", "q": "Ile trwa realizacja projektu?", "a": "Zależy od zakresu. Termin podajemy w wycenie, a w trakcie projektu na bieżąco informujemy o etapach. Na tempo wpływa też to, jak szybko otrzymamy materiały i akceptacje.", "published": true },
+    { "slug": "jak-zaczac", "order": 4, "category": "Współpraca", "q": "Jak wygląda rozpoczęcie współpracy?", "a": "Wypełniasz formularz wyceny, umawiamy krótką rozmowę, przygotowujemy wycenę z zakresem. Po jej akceptacji ustalamy harmonogram i zaczynamy.", "published": true },
+    { "slug": "platnosci", "order": 5, "category": "Płatności", "q": "Jak rozliczacie projekty?", "a": "Projekty jednorazowe rozliczamy zgodnie z warunkami w wycenie, a abonamenty miesięcznie na podstawie faktury. Szczegóły zawsze są opisane przed rozpoczęciem prac.", "published": true },
+    { "slug": "abonament-wypowiedzenie", "order": 6, "category": "Abonamenty", "q": "Czy abonament można zakończyć?", "a": "Tak. Warunki i okres wypowiedzenia abonamentu określamy w umowie przed jego rozpoczęciem.", "published": true },
+    { "slug": "opieka-po-wdrozeniu", "order": 7, "category": "Opieka", "q": "Co po zakończeniu projektu?", "a": "Możesz korzystać z rozwiązania samodzielnie (przekazujemy instrukcję) albo wybrać abonament opieki lub rozwoju.", "published": true },
+    { "slug": "male-firmy", "order": 8, "category": "Współpraca", "q": "Czy pracujecie z małymi firmami?", "a": "Tak. Pakiety START i PIERWSI KLIENCI powstały właśnie dla firm, które dopiero budują obecność w internecie.", "published": true }
+  ],
+  "demoProjects": [
+    {
+      "slug": "demo-instalator",
+      "title": "Strona i kampania lokalna dla firmy instalacyjnej",
+      "kind": "Strona internetowa, Google Ads",
+      "brief": "Przykładowy zakres projektu dla lokalnej firmy usługowej, która chce otrzymywać zapytania z okolicy.",
+      "scope": ["Landing page z kalkulatorem zakresu prac", "Kampania Google Ads na frazy lokalne", "Pomiar połączeń i formularzy"],
+      "motif": "grid"
+    },
+    {
+      "slug": "demo-b2b",
+      "title": "Automatyczna kwalifikacja zapytań dla producenta B2B",
+      "kind": "Automatyzacje, CRM",
+      "brief": "Przykładowy przepływ, w którym zapytanie z formularza trafia do CRM z oceną dopasowania i przypomnieniem dla handlowca.",
+      "scope": ["Formularz z pytaniami kwalifikującymi", "Integracja z CRM", "Powiadomienia i przypomnienia"],
+      "motif": "stack"
+    },
+    {
+      "slug": "demo-marka",
+      "title": "Identyfikacja wizualna dla marki kosmetycznej",
+      "kind": "Branding, Opakowania",
+      "brief": "Przykładowy zakres projektu brandingowego od strategii marki po projekt etykiet.",
+      "scope": ["Strategia i znak", "System kolorów i typografii", "Projekt etykiet produktowych"],
+      "motif": "wave"
+    }
+  ]
+}
