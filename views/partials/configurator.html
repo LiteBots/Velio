@@ -1,0 +1,97 @@
+<div class="configurator" data-packages="{{CFG_PACKAGES}}">
+      <aside class="config-side">
+        <span class="brand"><img class="brand-logo" src="/assets/img/logo.svg" alt="" width="34" height="34">velio<span class="brand-dot">.</span></span>
+        <p>Pięć krótkich kroków. Na końcu zobaczysz proponowany pakiet na start i wyślesz brief — odpowiemy z wyceną.</p>
+        <ol class="config-progress">
+          <li class="progress-step active" data-progress="1"><span class="dot">1</span> Cel</li>
+          <li class="progress-step" data-progress="2"><span class="dot">2</span> Firma</li>
+          <li class="progress-step" data-progress="3"><span class="dot">3</span> Usługi</li>
+          <li class="progress-step" data-progress="4"><span class="dot">4</span> Budżet i tempo</li>
+          <li class="progress-step" data-progress="5"><span class="dot">5</span> Podsumowanie</li>
+        </ol>
+        <p class="config-side-note">Wycena jest bezpłatna i do niczego nie zobowiązuje. Strona nie pobiera płatności.</p>
+      </aside>
+
+      <div class="config-main">
+        <div>
+          <div class="config-top"><span id="config-step-label">Krok 1 z 5 · Bezpłatna wycena</span><button type="button" class="modal-close" data-close-config aria-label="Zamknij wycenę"><i data-lucide="x"></i></button></div>
+          <div class="config-bar"><i id="config-bar"></i></div>
+        </div>
+
+        <section class="config-step active" data-step="1">
+          <h3 id="config-title">Co chcesz osiągnąć?</h3>
+          <p>Wybierz główny cel. Nie musisz znać nazw usług — dobierzemy je razem.</p>
+          <div class="choice-grid">
+            <label class="choice"><input type="radio" name="goal" value="Więcej zapytań od klientów" checked><span><b>Więcej zapytań</b><span>Chcę, żeby klienci regularnie pisali i dzwonili.</span></span></label>
+            <label class="choice"><input type="radio" name="goal" value="Nowa lub lepsza strona"><span><b>Nowa lub lepsza strona</b><span>Strona ma dobrze wyglądać i zamieniać odwiedzających w klientów.</span></span></label>
+            <label class="choice"><input type="radio" name="goal" value="Rozpoznawalna marka"><span><b>Rozpoznawalna marka</b><span>Logo, identyfikacja, materiały i spójny wizerunek.</span></span></label>
+            <label class="choice"><input type="radio" name="goal" value="Automatyzacja pracy (AI)"><span><b>Automatyzacja i AI</b><span>Mniej ręcznej pracy przy zapytaniach, ofertach i CRM.</span></span></label>
+            <label class="choice"><input type="radio" name="goal" value="Nie wiem — doradźcie"><span><b>Nie wiem jeszcze</b><span>Opiszę sytuację, a VELIO zaproponuje plan.</span></span></label>
+          </div>
+        </section>
+
+        <section class="config-step" data-step="2">
+          <h3>Powiedz coś o firmie.</h3>
+          <p>To pomaga dobrać skalę działań i kanały.</p>
+          <div class="config-fields">
+            <div class="field"><label for="cfg-industry">Branża</label><input id="cfg-industry" maxlength="80" placeholder="Np. instalacje, gabinet, sklep, usługi B2B"></div>
+            <div class="field"><label for="cfg-stage">Etap firmy</label><select id="cfg-stage"><option>Nowa firma</option><option selected>Działamy od kilku lat</option><option>Stabilna, rosnąca firma</option><option>Duża organizacja</option></select></div>
+            <div class="field"><label for="cfg-area">Gdzie są Twoi klienci?</label><select id="cfg-area"><option>Lokalnie (miasto i okolice)</option><option>W regionie</option><option>W całej Polsce</option><option>Za granicą</option></select></div>
+            <div class="field"><label for="cfg-site">Strona internetowa</label><select id="cfg-site"><option>Nie mam strony</option><option selected>Mam, ale wymaga odświeżenia</option><option>Mam i działa dobrze</option></select></div>
+          </div>
+        </section>
+
+        <section class="config-step" data-step="3">
+          <h3>Których usług potrzebujesz?</h3>
+          <p>Zaznacz wszystko, co Cię interesuje. Możesz też nic nie zaznaczać — doradzimy.</p>
+          <div class="choice-grid choice-grid-3" id="service-choices">{{CFG_SERVICES}}</div>
+        </section>
+
+        <section class="config-step" data-step="4">
+          <h3>Budżet i tempo startu.</h3>
+          <p>Orientacyjny budżet na start (bez budżetu reklamowego płaconego platformom).</p>
+          <div class="choice-grid choice-grid-5" id="budget-choices">
+            <label class="choice compact"><input type="radio" name="budget" value="do 2 000 zł"><span><b>do 2 tys. zł</b></span></label>
+            <label class="choice compact"><input type="radio" name="budget" value="2–5 tys. zł" checked><span><b>2–5 tys. zł</b></span></label>
+            <label class="choice compact"><input type="radio" name="budget" value="5–10 tys. zł"><span><b>5–10 tys. zł</b></span></label>
+            <label class="choice compact"><input type="radio" name="budget" value="powyżej 10 tys. zł"><span><b>10 tys. zł +</b></span></label>
+            <label class="choice compact"><input type="radio" name="budget" value="nie wiem"><span><b>Nie wiem</b></span></label>
+          </div>
+          <div class="range-wrap">
+            <div class="range-head"><label for="timeline">Kiedy chcesz zacząć?</label><strong id="timeline-label">W ciągu miesiąca</strong></div>
+            <input id="timeline" type="range" min="1" max="4" step="1" value="2">
+          </div>
+        </section>
+
+        <section class="config-step" data-step="5">
+          <h3>Twój plan na start.</h3>
+          <p>To nie oferta — zakres i cenę potwierdzimy po krótkiej rozmowie.</p>
+          <div class="summary-grid">
+            <div class="summary-card"><h4>Podsumowanie</h4><div class="summary-list" id="config-summary"></div></div>
+            <div class="estimate-card"><span>Proponowany punkt startu</span><strong id="estimate-price">—</strong><small id="estimate-name"></small><div class="estimate-meter"><i id="estimate-meter" style="width:40%"></i></div><p id="estimate-note"></p></div>
+          </div>
+          <form class="config-contact" id="config-form" novalidate>
+            <div class="field-grid">
+              <div class="field"><label for="cfg-name">Imię i nazwisko *</label><input id="cfg-name" name="name" autocomplete="name" required minlength="2" maxlength="120"></div>
+              <div class="field"><label for="cfg-email">E-mail *</label><input id="cfg-email" name="email" type="email" autocomplete="email" required maxlength="190"></div>
+              <div class="field"><label for="cfg-phone">Telefon</label><input id="cfg-phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div>
+              <div class="field"><label for="cfg-company">Firma</label><input id="cfg-company" name="company" autocomplete="organization" maxlength="160"></div>
+              <div class="field full"><label for="cfg-notes">Coś jeszcze? (opcjonalnie)</label><textarea id="cfg-notes" name="notes" maxlength="2000" rows="3" placeholder="Np. adres obecnej strony, termin, konkurencja, na czym najbardziej Ci zależy"></textarea></div>
+              <div class="hp" aria-hidden="true"><label for="cfg-website">Strona www</label><input id="cfg-website" name="website" tabindex="-1" autocomplete="off"></div>
+            </div>
+            <label class="consent"><input type="checkbox" name="consent" required> <span>Zgadzam się na kontakt w sprawie wyceny. Szczegóły w <a href="/polityka-prywatnosci" target="_blank" rel="noopener">polityce prywatności</a>.</span></label>
+            <div class="form-status" id="config-status" role="status" aria-live="polite"></div>
+          </form>
+          <div class="config-success" id="config-success" hidden tabindex="-1">
+            <div class="ok-mark"><i data-lucide="check"></i></div>
+            <h3>Dziękujemy! Brief jest u nas.</h3>
+            <p>Numer zgłoszenia: <b id="config-number">—</b>. Odezwiemy się na podany e-mail, żeby umówić krótką rozmowę.</p>
+          </div>
+        </section>
+
+        <div class="config-nav-wrap config-nav">
+          <button type="button" class="button button-light" id="config-back"><i data-lucide="arrow-left"></i> Wstecz</button>
+          <button type="button" class="button button-coral" id="config-next">Dalej <i data-lucide="arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
