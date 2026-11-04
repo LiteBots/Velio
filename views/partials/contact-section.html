@@ -1,0 +1,43 @@
+<section class="contact-section" id="kontakt" aria-labelledby="kontakt-title">
+      <div class="wrap contact-shell reveal">
+        <div class="contact-copy">
+          <span class="section-kicker">Kontakt</span>
+          <h2 id="kontakt-title">Powiedz, czego<br><span class="serif">potrzebuje Twoja firma.</span></h2>
+          <p>Napisz, z czym przychodzisz — więcej zapytań, nowa strona, kampania, automatyzacja czy marka. Odpowiemy z konkretnym zakresem i ceną.</p>
+          <div class="contact-chips">
+            <span><i data-lucide="check"></i> bez zobowiązań</span>
+            <span><i data-lucide="check"></i> wycena z rozpisanym zakresem</span>
+            <span><i data-lucide="check"></i> bez płatności online</span>
+          </div>
+          <div class="contact-direct">{{CONTACT_DIRECT}}</div>
+        </div>
+
+        <div class="contact-form-wrap" id="contact-wrap">
+          <div class="form-head"><h3>Opowiedz o projekcie</h3><span>Formularz kontaktowy</span></div>
+          <form id="contact-form" novalidate>
+            <div class="field-grid">
+              <div class="field"><label for="name">Imię i nazwisko *</label><input id="name" name="name" autocomplete="name" required minlength="2" maxlength="120" placeholder="Np. Jan Kowalski"><span class="field-error" data-error-for="name"></span></div>
+              <div class="field"><label for="email">E-mail *</label><input id="email" type="email" name="email" autocomplete="email" required maxlength="190" placeholder="kontakt@firma.pl"><span class="field-error" data-error-for="email"></span></div>
+              <div class="field"><label for="phone">Telefon</label><input id="phone" type="tel" name="phone" autocomplete="tel" maxlength="40" placeholder="+48 ..."></div>
+              <div class="field"><label for="topic">Temat</label><select id="topic" name="topic">{{TOPIC_OPTIONS}}</select></div>
+              <div class="field full"><label for="company">Firma i strona www</label><input id="company" name="company" autocomplete="organization" maxlength="160" placeholder="Np. Firma XYZ, firmaxyz.pl"></div>
+              <div class="field full"><label for="message">Czego potrzebujesz? *</label><textarea id="message" name="message" required minlength="10" maxlength="6000" placeholder="Opisz krótko cel, obecną sytuację i termin..."></textarea><span class="field-error" data-error-for="message"></span></div>
+              <div class="hp" aria-hidden="true"><label for="website">Strona www</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+            </div>
+            <label class="consent"><input type="checkbox" name="consent" required> <span>Wyrażam zgodę na kontakt w sprawie mojego zapytania. Szczegóły w <a href="/polityka-prywatnosci" target="_blank" rel="noopener">polityce prywatności</a>.</span></label>
+            <input type="hidden" name="source" value="kontakt">
+            <div class="form-bottom">
+              <p>Formularz nie uruchamia zakupu. Zakres i warunki współpracy ustalamy bezpośrednio.</p>
+              <button class="button button-coral" type="submit"><i data-lucide="send"></i> Wyślij zapytanie</button>
+            </div>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </form>
+          <div class="form-success" tabindex="-1">
+            <div class="ok-mark"><i data-lucide="check"></i></div>
+            <h3>Dziękujemy za wiadomość!</h3>
+            <p>Numer zgłoszenia: <b data-lead-number>—</b>. Odezwiemy się na podany adres e-mail.</p>
+            <button type="button" class="button button-light button-small" data-reset-contact style="margin-top:20px"><i data-lucide="rotate-ccw"></i> Wyślij kolejne zapytanie</button>
+          </div>
+        </div>
+      </div>
+    </section>
